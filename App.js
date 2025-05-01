@@ -7,7 +7,7 @@ function App() {
   const [result, setResult] = useState('');
 
   const generateResume = async () => {
-    const response = await fetch('https://your-backend-url.onrender.com/api/generate/resume', {
+    const response = await fetch('https://rrbes.onrender.com/api/generate/resume', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
