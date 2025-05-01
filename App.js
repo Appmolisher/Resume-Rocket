@@ -47,7 +47,3 @@ function App() {
 }
 
 export default App;
-
-git add .
-git commit -m "Fix CORS to allow Vercel frontend"
-git push
